@@ -1,4 +1,4 @@
-package Academy.ProjectA;
+package automation_practice.ProjectA;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
