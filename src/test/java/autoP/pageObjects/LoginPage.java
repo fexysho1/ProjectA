@@ -19,9 +19,6 @@ public class LoginPage {
 		
 	}
 
-	public void clickloginbtn1() {
-		// TODO Auto-generated method stub
-		
-	}
+	
 
 }
