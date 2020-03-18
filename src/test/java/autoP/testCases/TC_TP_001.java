@@ -10,24 +10,24 @@ import autoP.pageObjects.LoginPage;
 
 public class TC_TP_001 extends BaseClass
 {
-	@Test(priority=1)
+	@Test
 	public void loginTest() throws IOException, InterruptedException
 	{	
 		// Login page 
 		LoginPage LoginPage = new LoginPage(driver);
 		
 		
-		LoginPage.clickloginlandingbtn();
-		logger.info("Clicking on Login button to enter user name and password");
 		
-		LoginPage.setUsername(username);
-		logger.info("providing user name");
-		
-		logger.info("providing password");
-		LoginPage.setPassword(password);
-		
-		LoginPage.clickloginbtn1();
-		logger.info("Clicking on login button to access TwoPlugs main home page");
+		  LoginPage.clickloginlandingbtn();
+		  logger.info("Clicking on Login button to enter user name and password");
+		  
+		  LoginPage.setUsername(username); logger.info("providing user name");
+		  
+		  logger.info("providing password"); LoginPage.setPassword(password);
+		  
+		  LoginPage.clickloginbtn1();
+		  logger.info("Clicking on login button to access TwoPlugs main home page");
+		 
 		
 		// Validating the login - "Home Page" title
 		// after logging into Sun
