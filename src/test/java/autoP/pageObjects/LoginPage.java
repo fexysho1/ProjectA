@@ -14,4 +14,16 @@ public class LoginPage {
 		PageFactory.initElements(driver, this);
 	}
 
+	public void clickloginlandingbtn() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void clickloginbtn1() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+
 }
