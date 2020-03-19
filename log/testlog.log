@@ -14,3 +14,23 @@
 2020-03-17 23:59:14,676 - Atomation-Practice -DEBUG - Debug logging has started 
 2020-03-17 23:59:51,179 - Atomation-Practice -DEBUG - Debug logging has started 
 2020-03-18 00:00:54,546 - Atomation-Practice -DEBUG - Debug logging has started 
+2020-03-18 22:50:33,006 - Atomation-Practice -DEBUG - Debug logging has started 
+2020-03-18 22:50:48,806 - Atomation-Practice -INFO - Clicking on Signin button to enter user name and password
+2020-03-18 22:50:50,248 - Atomation-Practice -INFO - providing user name
+2020-03-18 22:50:50,510 - Atomation-Practice -INFO - providing password
+2020-03-18 22:50:53,810 - Atomation-Practice -INFO - Clicking on login button to access TwoPlugs main home page
+2020-03-18 22:50:57,373 - Atomation-Practice -ERROR - login is failed : Screen shot taken
+2020-03-18 23:16:12,802 - Atomation-Practice -DEBUG - Debug logging has started 
+2020-03-18 23:16:26,394 - Atomation-Practice -INFO - Clicking on Signin button to enter user name and password
+2020-03-18 23:16:27,591 - Atomation-Practice -INFO - providing user name
+2020-03-18 23:16:27,839 - Atomation-Practice -INFO - providing password
+2020-03-18 23:16:30,338 - Atomation-Practice -INFO - Clicking on login button to access TwoPlugs main home page
+2020-03-18 23:16:30,374 - Atomation-Practice -INFO - login success
+2020-03-18 23:16:30,386 - Atomation-Practice -INFO - Vaidating title page - Home page, after login
+2020-03-18 23:20:42,589 - Atomation-Practice -DEBUG - Debug logging has started 
+2020-03-18 23:20:54,842 - Atomation-Practice -INFO - Clicking on Signin button to enter user name and password
+2020-03-18 23:20:55,963 - Atomation-Practice -INFO - providing user name
+2020-03-18 23:20:56,242 - Atomation-Practice -INFO - providing password
+2020-03-18 23:20:58,364 - Atomation-Practice -INFO - Clicking on submit button to sign in
+2020-03-18 23:20:58,393 - Atomation-Practice -INFO - login success
+2020-03-18 23:20:58,401 - Atomation-Practice -INFO - Vaidating title page - Home page, after login
