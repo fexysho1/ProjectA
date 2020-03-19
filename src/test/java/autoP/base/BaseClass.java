@@ -23,7 +23,7 @@ public class BaseClass {
 
 	// Integrating data from ReadConfig
 	public String baseURL = readconfig.getApplicationURL();
-	public String username1 = readconfig.getUsername();
+	public String username = readconfig.getUsername();
 	public String password = readconfig.getPassword();
 
 	public static WebDriver driver;

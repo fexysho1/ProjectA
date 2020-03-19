@@ -36,7 +36,7 @@ public class ReadConfig
 	}
 	public String getUsername() // new 
 	{
-		String username=pro.getProperty("username1");
+		String username=pro.getProperty("username");
 		return username;
 	}
 	
