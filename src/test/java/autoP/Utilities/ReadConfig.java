@@ -51,6 +51,11 @@ public class ReadConfig
 	String chromepath=pro.getProperty("chromepath");
 	return chromepath;
 	}
+	public String getMacChromePath() 
+	{
+	String macchromepath=pro.getProperty("macchromepath");
+	return macchromepath;
+	}
 	
 	public String getIEPath() 
 	{

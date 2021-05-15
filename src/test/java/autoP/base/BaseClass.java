@@ -13,15 +13,9 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxOptions;
-import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Parameters;
-
 import autoP.Utilities.ReadConfig;
-import net.bytebuddy.agent.builder.AgentBuilder.CircularityLock.Global;
 
 public class BaseClass {
 
@@ -47,8 +41,16 @@ public class BaseClass {
 
 		logger.setLevel(Level.DEBUG); // to get the debug log
 		logger.debug("Debug logging has started ");
-
-		System.setProperty("webdriver.chrome.driver", readconfig.getChromePath());
+		
+		String os = System.getProperty("os.name").toLowerCase();
+		System.out.println(os);
+		
+		if (os.contains("mac")) {
+			System.setProperty("webdriver.chrome.driver", readconfig.getMacChromePath());
+		} else {
+			System.setProperty("webdriver.chrome.driver", readconfig.getChromePath());
+		}
+		
 		driver = new ChromeDriver();
 		driver.get(baseURL);
 		driver.manage().window().maximize();
